@@ -1,0 +1,21 @@
+.download-anime {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-anime__heading {
+  @include forTitle(h3);
+  color: $white;
+  margin-bottom: 10px;
+}
+
+.download-anime__inner {
+  display: flex;
+  gap: 15px;
+}
+
+.download-anime__select {
+  background-color: $orange;
+  border: none;
+  border-radius: 5px;
+}
